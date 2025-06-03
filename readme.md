@@ -32,7 +32,7 @@ curl -X POST http://localhost:8080/quotes -H "Content-Type: application/json" -d
 ```
 
 #### GET запросы
-```
+```cmd
 
 curl http://localhost:8080/quotes
 curl http://localhost:8080/quotes/random
@@ -40,6 +40,6 @@ curl http://localhost:8080/quotes?author=Confucius
 ```
 
 #### DELETE запрос
-```
+```cmd
 curl -X DELETE http://localhost:8080/quotes/1
 ```
